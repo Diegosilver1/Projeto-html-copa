@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: helvetica;
+}
+/*imagem de fundo*/
+body{
+    background-image: url(../img/5623515.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: cover;
+    background-position: center  center;
+}
+/*rede sociais*/
+.rede-social ul li {
+margin-left: 30px; /* para dar espaço de um logo para outro*/
+display: inline-block;
+text-align: end;
+float: left; 
+list-style: none;
+padding-bottom: 0px;
+}
+.rede-social{
+ width: 15%;
+ float: right;
+ margin-top: -30px;
+}
+
+/*cabeçalho*/
+header{
+    position:fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 3px;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(0, 255, 106), rgb(3, 20, 77));
+    border-bottom: 2px solid #33c07c;
+    color:aliceblue;
+    
+  /* background-image: linear-gradient(to right, rgb(0, 255, 106), rgb(39, 66, 199));
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 2px solid #2d1a7c;*/
+}
+h1{
+ color: rgb(165, 215, 152);
+
+}
+/*resumo*/
+.container1{
+    min-height: 60vh;
+    padding: 50px;
+}
+.resumo-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin: 1% 1.5%;
+    padding: 15px;
+}
+.bold{
+    font-size: larger;
+}
+
+h4{
+    text-align: center;
+    margin: 2%;
+}
+/*botao*/
+.bnt{
+    text-decoration: none;
+    color: red;
+    background-color: #1bbf2b;
+    border: 2px solid #4931d4;
+    border-radius: 10px;
+    color: #fff;
+    width: 120px;
+    padding: 1px 7px;
+    text-align: center;
+    transition: 0.5s;
+}
+.bnt:hover{
+    background-color: #afba15;/* cor de fundo vai ficar amarela quando passar o mause    */
+}
+
+/*conteudo principal seleções*/
+.container{
+    
+    min-height: 60vh;
+    padding: 50px;
+}
+.product-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin: 1% 1.5%;
+    padding: 15px;
+}
+.card{
+    width: 31%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 15px;
+}
+.product-image{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+#img-1{
+    background-image: url('../img/brasil1.jpg');
+}
+#img-2{
+    background-image: url('../img/frança.jpg');
+    
+}
+#img-3{
+    background-image: url('../img/argentina1.jpg');
+}
+#img-4{
+    background-image: url('../img/Alemanha.jpg');
+}
+#img-5{
+    background-image: url('../img/inglaterra.jpg');
+}
+#img-6{
+    background-image: url('../img/Portugal.jpg');
+}
+
+
+/*footer*/
+footer{ 
+    background-image: linear-gradient(to right, blue, rgb(50, 42, 42));
+    text-align: center;
+    padding: 80px;
+    border-top: 3px solid #321f7c;
+}
+footer:bold{
+    color:steelblue;
+    padding: 30px;
+}
+
+
+
+
+
+
+
+
+
